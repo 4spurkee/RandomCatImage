@@ -1,0 +1,60 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    #catImage {
+        max-width: 352px; /* Ограничиваем максимальную ширину */
+        max-height: auto;    /* Сохраняем пропорции изображения */
+        height: auto;
+    }
+
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgb(23, 23, 23) 100%);
+}
+
+h1{
+    color:rgb(209, 209, 209);
+    
+}
+
+button{
+    background-color: rgba(91, 91, 91, 0.05);
+    border-radius: 10px;
+    width: 90%;
+    height: 50px;
+    color: rgb(86, 86, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 200ms ease; /* Плавний перехід */
+    
+}
+
+button:hover {
+    background-color: rgba(91, 91, 91, 0.14);
+    
+}
+#catImage{
+    border-radius: 30px;
+    border: 10px solid rgba(119, 119, 119, 0.1);
+    height: 50vh;
+    
+}
+
+footer {
+    margin-top: 20px;
+
+    color: rgb(153, 153, 153); /* Чорний текст */
+    text-align: center; /* Центрування тексту */
+    padding: 10px; /* Відступи всередині футера */
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Футер на всю ширину */
+    font-size: 14px; /* Розмір шрифту */
+}
